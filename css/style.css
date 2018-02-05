@@ -42,7 +42,13 @@ padding-left: 5.5rem;
 padding-right: 5.5rem;
 padding-bottom: 1.7rem;
 margin-top: 3 .3rem;
+-webkit-transition: 0.4s ;
+-o-transition: 0.4s ;
+transition: 0.4s ;
 } 
+.header-button:hover{
+box-shadow: none;
+}
 header small {
 	font-size: 1.2rem;
 	display: block; 
@@ -119,6 +125,7 @@ footer {
 }
 .social-block{
 	text-align: center;
+	font-size: 18px;
 }
 .social-block a {
 display: inline-block;
@@ -130,6 +137,7 @@ margin-right: 13px;
 }
 .footer-cta{
 	margin-bottom: 13px;
+	font-size: 18px;
 }
 .footer-button{
 	display: inline-block;
@@ -140,6 +148,13 @@ margin-right: 13px;
 	font-size: 18px;
 	border-radius: 50px;
 	padding: 12px 40px;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+.footer-button:hover {
+	background-color: #fff;
+	color: #3a7dfd;
 }
 @media (max-width: 1200px) {
 	.header-pretitle {
